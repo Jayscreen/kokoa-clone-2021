@@ -13,9 +13,24 @@
 }
 .nav__link {
     color: #2e363e;
+    position: relative;
 }
 .status-bar__column{
     display: flex;
     position: fixed;
     width: 100%
+}
+.nav__notification{
+    background-color: tomato;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 17px;
+    bottom: 17px;
 }
