@@ -34,3 +34,15 @@
     left: 17px;
     bottom: 17px;
 }
+
+.nav__ellipsis{
+    display: flex;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 35px;
+}
