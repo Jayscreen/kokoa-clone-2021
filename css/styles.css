@@ -17,6 +17,9 @@ body{
     color: #2e363e;
 }
 
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}
 .welcome-header{
     margin: 90px 0;
     text-align: center;
