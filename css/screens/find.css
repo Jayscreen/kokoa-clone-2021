@@ -45,6 +45,8 @@
 }
 .open-post{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .open-post__title {
     font-weight: 600;    
@@ -78,4 +80,29 @@
 
 .open-post__member-status {
     color: #ff8bd2;
+}
+
+.open-post__photo {
+    position: relative;
+}
+.open-post__photo img {
+
+    border-radius: 10px;
+    width: 120px;
+    height: 120px
+}
+.open-post__heart-count {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+}
+.open-post__heart-count span {
+    margin-left: 5px;
 }
