@@ -16,11 +16,14 @@
 .user-component__title { 
     font-weight: 600;
     font-size: 22px;
+    
 }
 .user-component__subtitle{
     margin-top: 16px;
     color: rgba(0, 0, 0, 0.5);
+    display: flex;
 }
+
 .user-component__avatar--xl{
     width: 80px;
     height: 80px;
@@ -30,6 +33,12 @@
     height: 60px;
     border-radius: 25px;
 }
+
+.user-component__text {
+    position: relative;
+
+}
+
 .user-component__text--not-bold{
     font-weight: 400;
 }
